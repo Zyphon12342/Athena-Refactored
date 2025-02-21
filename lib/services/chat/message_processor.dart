@@ -1,12 +1,12 @@
-import '../card/bus_card.dart';
-import '../card/airplane_card.dart';
-import '../card/airbnb_card.dart';
-import '../card/amazon_card.dart';
-import '../card/booking_dot_com_card.dart';
-import '../card/restaurant_card.dart';
-import '../card/fashion_shopping.dart';
-import '../card/perplexity_card.dart';
-import '../card/uber_card.dart';
+import '../../card/bus_card.dart';
+import '../../card/airplane_card.dart';
+import '../../card/airbnb_card.dart';
+import '../../card/amazon_card.dart';
+import '../../card/booking_dot_com_card.dart';
+import '../../card/restaurant_card.dart';
+import '../../card/fashion_shopping.dart';
+import '../../card/perplexity_card.dart';
+import '../../card/uber_card.dart';
 
 // Helper to convert dynamic maps to Map<String, String>.
 List<Map<String, String>> quoteKeysAndValues(dynamic response) {

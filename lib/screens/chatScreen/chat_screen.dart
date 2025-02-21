@@ -6,13 +6,13 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:image_picker/image_picker.dart';
 
 // Import services.
-import '../services/chat_service.dart';
-import '../services/image_upload_service.dart';
-import '../services/image_picker_helper.dart';
-import '../services/message_processor.dart';
+import '../../services/chat/chat_service.dart';
+import '../../services/image_Service/image_upload_service.dart';
+import '../../services/image_Service/image_picker_helper.dart';
+import '../../services/chat/message_processor.dart';
 
 // Import widgets.
-import '../widgets/message_bubble.dart';
+import '../../widgets/messages/message_bubble.dart';
 
 // Global chat history.
 List<Map<String, String>> history = [];
